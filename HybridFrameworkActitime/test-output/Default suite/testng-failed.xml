@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.actitime.user_scripts.RemovePermissionsTC_108">
+        <methods>
+          <include name="preConfig"/>
+          <include name="testRemovePermissionsTC_108"/>
+          <include name="postConfig"/>
+        </methods>
+      </class> <!-- com.actitime.user_scripts.RemovePermissionsTC_108 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

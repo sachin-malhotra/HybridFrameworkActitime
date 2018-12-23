@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="practice">
+	<test name="testngFF">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="practice.ParameterizedTest" />
+		</classes>
+	</test>
+	<test name="testngGC">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="practice.ParameterizedTest" />
+		</classes>
+	</test>
+	<test name="testngIE">
+		<parameter name="browser" value="ie" />
+		<classes>
+			<class name="practice.ParameterizedTest" />
+		</classes>
+	</test>
+	<test name="testngEdge">
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class name="practice.ParameterizedTest" />
+		</classes>
+	</test>
+</suite>
