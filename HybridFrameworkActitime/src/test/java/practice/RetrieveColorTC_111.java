@@ -21,5 +21,7 @@ public class RetrieveColorTC_111 extends SuperTestScript
 		lp.submitCredentialsWithPasswordTextField();
 		String color = patp.retrieveShowTasksButtonColor();
 		System.out.println(color);
+		System.out.println("Second Commit");
+		
 	}
 }
